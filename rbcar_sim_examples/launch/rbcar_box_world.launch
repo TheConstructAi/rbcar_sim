@@ -14,15 +14,18 @@
   </include>
 
   <!-- start gazebo simulation -->
-  <!-- <include file="$(find rbcar_gazebo)/launch/rbcar_gazebo.launch">
+  <include file="$(find rbcar_gazebo)/launch/rbcar_gazebo.launch">
     <arg name="world_name" value="$(arg world_name)" />
     <arg name="has_camera" value="$(arg has_camera)"/>
-  </include> -->
+  </include>
 
   <!-- rbcar_control launch file -->
   <!-- <include file="$(find rbcar_control)/launch/rbcar_control.launch">
     <arg name="publish_odom" value="false"/>
   </include> -->
+
+  <include file="$(find rbcar_control)/launch/rbcar_control_alternative.launch">
+  </include>
 
 
   <include file="$(find rbcar_sim_examples)/launch/start_rviz.launch"/>

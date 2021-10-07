@@ -5,8 +5,6 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
-        - /TF1
-        - /TF1/Status1
       Splitter Ratio: 0.5
     Tree Height: 549
   - Class: rviz/Selection
@@ -77,10 +75,12 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
+          Value: true
         elevator_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
+          Value: true
         front_3d_lidar_base_link:
           Alpha: 1
           Show Axes: false
@@ -266,7 +266,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 7.777493000030518
+      Distance: 3.330690860748291
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -274,17 +274,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: 0.05631231516599655
-        Y: 0.23110638558864594
-        Z: 0.1900087147951126
+        X: 0.08676213771104813
+        Y: 0.41526341438293457
+        Z: 0.30522751808166504
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.5253980159759521
+      Pitch: -0.019602157175540924
       Target Frame: <Fixed Frame>
-      Yaw: 5.278580188751221
+      Yaw: 6.028581619262695
     Saved: ~
 Window Geometry:
   Displays:
