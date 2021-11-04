@@ -4,7 +4,7 @@
   <!-- roslaunch arguments -->
   <arg name="debug" default="false"/>
   <arg name="gui" default="true"/>
-  <arg name="world_name" default="plano" />
+  <arg name="world_name" default="plane_mod" />
   <arg name="world" default="$(arg world_name).world" />
   <arg name="world_path" default="$(find rbcar_gazebo)/worlds" />
   <arg name="has_camera" default="false"/>
@@ -21,12 +21,8 @@
 
   <!-- Call a python script to the run a service call to gazebo_ros to spawn a URDF robot -->
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
-        args="-urdf -model rbcar -param robot_description -z 0.0        
+        args="-urdf -model rbcar -param robot_description -z 0.1        
         "/>
-        <!---J left_front_shock -0.08913882430419398-->
-        <!---J left_rear_shock -0.08913882430419398-->
-        <!---J right_front_shock -0.08913882430419398-->
-        <!---J right_rear_shock -0.08913882430419398-->
 
   <include if="$(arg has_camera)" file="$(find axis_camera_ptz)/launch/axis_gazebo.launch" />
 

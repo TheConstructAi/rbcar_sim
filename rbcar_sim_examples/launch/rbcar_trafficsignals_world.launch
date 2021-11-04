@@ -5,7 +5,7 @@
   <arg name="gps_latitude" default="39.5080331" />
   <arg name="gps_longitude" default="-0.4619816" />
   <arg name="has_camera" default="true"/>
-  <arg name="world_name" default="plane" />
+  <arg name="world_name" default="simple_traffic_signals" />
 
   <!-- rbcar_control launch file -->
   <include file="$(find rbcar_description)/launch/rbcar_state_robot.launch">
