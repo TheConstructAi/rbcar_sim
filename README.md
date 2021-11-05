@@ -4,8 +4,8 @@ Robotnik Rbcar
 Packages for the simulation of the Rbcar robot
 
 <p align="center">
-  <img src="https://github.com/RobotnikAutomation/rbcar_sim/noetic-devel/rbcar.jpg" height="275" />
-  <img src="https://github.com/RobotnikAutomation/rbcar_sim/noetic-devel/rbcar_gazebo_new.png" height="275" />
+  <img src="https://github.com/TheConstructAi/rbcar_sim/blob/noetic-devel/rbcar.jpg" height="275" />
+  <img src="https://github.com/TheConstructAi/rbcar_sim/blob/noetic-devel/rbcar_gazebo_new.png" height="275" />
 </p>
 
 
