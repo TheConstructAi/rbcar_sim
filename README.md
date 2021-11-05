@@ -51,3 +51,14 @@ source ~/catkin_ws/devel/setup.bash
 ```
 roslaunch rbcar_sim_bringup rbcar_complete.launch
 ```
+
+6. High Quality simulation:
+If you want the textured version of the city, becuase of its size, it has to be downloaded manually and replace
+the default **town1** model
+```
+cd rbcar_gazebo/models
+git clone git clone https://bitbucket.org/theconstructcore/town_hq.git
+rm -rf town1
+mv town_hq/town1 ./
+rm -rf  town_hq
+```
