@@ -19,11 +19,6 @@
     <arg name="has_camera" value="$(arg has_camera)"/>
   </include>
 
-  <!-- rbcar_control launch file -->
-  <!-- <include file="$(find rbcar_control)/launch/rbcar_control.launch">
-    <arg name="publish_odom" value="false"/>
-  </include> -->
-
   <include file="$(find rbcar_control)/launch/rbcar_control_alternative.launch">
   </include>
 
