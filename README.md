@@ -49,7 +49,16 @@ source ~/catkin_ws/devel/setup.bash
 ```
 5. Run:
 ```
-roslaunch rbcar_sim_bringup rbcar_complete.launch
+# For simple empty world
+roslaunch rbcar_sim_examples rbcar_simple_world.launch
+# For Lane Detection tests
+roslaunch rbcar_sim_examples rbcar_loop_world.launch
+# For pedestrian and vehicles testing detection
+roslaunch rbcar_sim_examples rbcar_pedestrian_world.launch
+# For traffic lights and signal detection testing
+roslaunch rbcar_sim_examples rbcar_trafficsignals_world.launch
+# For a complex small city environment
+roslaunch rbcar_sim_examples rbcar_highresolution_world.launch
 ```
 
 6. High Quality simulation:
