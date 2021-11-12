@@ -33,6 +33,18 @@
       <pose>0 0 0 0 0 0</pose>
     </include>  
 
+    <include>
+      <uri>model://tree</uri>
+      <name>tree1</name>
+      <pose>8.0 0 0.0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://tree</uri>
+      <name>tree2</name>
+      <pose>0 5.0 0.0 0 0 0</pose>
+    </include>
+
     <!-- A global light source -->
     <include>
       <uri>model://sun</uri>
