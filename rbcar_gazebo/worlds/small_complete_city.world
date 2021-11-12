@@ -146,13 +146,13 @@
 
     <include>
       <uri>model://person_ken</uri>
-      <name>person_ken</name>
+      <name>person_ken1</name>
       <pose>7.524980 2.741197 0.148014 0 0 0</pose>
     </include>
 
     <include>
-      <uri>model://person_ryan</uri>
-      <name>person_ryan</name>
+      <uri>model://person_ken</uri>
+      <name>person_ryan2</name>
       <pose>11.196165 -3.220906 0.046237 0 0 2.421118</pose>
     </include>
 
